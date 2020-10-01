@@ -36,10 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView(
         children: <Widget>[
-          Padding(
-              padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-              child: CarouselSlider()
-          )
+          CarouselSlider()
         ],
       ),
     );
